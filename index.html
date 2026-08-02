@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>Corazón Infinito - TE AMO</title>
+<meta name="description" content="Una experiencia visual inmersiva de un corazón infinito construido con la frase TE AMO">
+<meta name="theme-color" content="#000000">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://esm.sh/three@0.166.1"
+  }
+}
+</script>
+</head>
+<body>
+
+<canvas id="scene"></canvas>
+
+<div class="vignette"></div>
+
+<div class="hud" id="hud">
+  <p class="hud-eyebrow">Con Mucho Amor</p>
+  <h2 class="hud-title">PARA TI&nbsp;PRECIOSA</h2>
+  
+  <button id="startButton" class="start-btn">Comenzar Viaje</button>
+  
+  <p class="hud-hint">
+    <span>desliza la pantalla para mirar a tu alrededor</span>
+  </p>
+</div>
+
+<div class="loader" id="loader">
+  <div class="loader-heart">BEBECITA FIU FIU</div>
+</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
