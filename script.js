@@ -15,8 +15,8 @@ const CONFIG = {
   dragRotationSensitivity: 0.0028,
   maxYaw: 0.55,
   maxPitch: 0.4,
-  cruiseSpeed: 14, // Velocidad normal para leer
-  warpSpeed: 200,  // Velocidad del viaje espacial
+  cruiseSpeed: 18, // Velocidad normal para leer
+  warpSpeed: 210,  // Velocidad del viaje espacial
   desktop: { rings: 46 },
   mobile: { rings: 28 },
   phrases: [ 
